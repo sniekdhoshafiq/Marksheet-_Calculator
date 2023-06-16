@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.9"
+            android:text="Physics"
+            android:gravity="left|center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="#3E2723"
+            android:textColor="#01579B"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <EditText
+            android:id="@+id/edPhysics"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1.1"
+            android:hint=""
+            android:inputType="number"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#F57F17"
+            android:background="#1A237E"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.9"
+            android:text="Chemistry"
+            android:gravity="left|center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="#DD2C00"
+            android:textColor="#006064"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <EditText
+            android:id="@+id/edChemistry"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1.1"
+            android:hint=""
+            android:inputType="number"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#880E4F"
+            android:background="#FFAB00"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.9"
+            android:text="Bio-Logy"
+            android:gravity="left|center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="#FF6D00"
+            android:textColor="#004D40"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <EditText
+            android:id="@+id/edBiology"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1.1"
+            android:hint=""
+            android:inputType="number"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#01579B"
+            android:background="#DD2C00"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.9"
+            android:text="Mathematics"
+            android:gravity="left|center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:background="#FFAB00"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <EditText
+            android:id="@+id/edMathematics"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1.1"
+            android:hint=""
+            android:inputType="number"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#C6FF00"
+            android:background="#3E2723"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.9"
+            android:text="Computer"
+            android:gravity="left|center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#827717"
+            android:background="#1A237E"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <EditText
+            android:id="@+id/edComputer"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1.1"
+            android:hint=""
+            android:inputType="number"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#3E2723"
+            android:background="#FF6D00"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calculate"
+        android:textSize="30sp"
+        android:backgroundTint="#64DD17"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tvPercentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="35sp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:background="#ffffff"
+        />
+
+    <TextView
+        android:id="@+id/tvGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="35sp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:background="#ffffff"
+        />
+
+
+</LinearLayout>
